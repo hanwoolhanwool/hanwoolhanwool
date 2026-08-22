@@ -14,18 +14,11 @@
 ═══════════════════════════════════════════════════════════════════════════
 -->
 
-# 이한울 | Game Client Developer
+<div align="center">
+
+### 이한울 &nbsp;·&nbsp; Game Client Developer
 
 **게임이 재미있을 때까지 연마하는** 개발자 이한울입니다.
-
-<br/>
-
-- **직관적이고 단순한 규칙**에서 **참신한 재미**가 나오는 게임을 추구
-- **협동 멀티플레이**, **생존·전투 루프 설계**, **입력 파이프라인 구현** 강점
-- 토스 앱인에 게임 하나를 출시해 **라이브 개선까지 한 사이클** 완주
-- 설계 근거를 **문서와 테스트로 남기는** 개발을 지향
-
-<br/>
 
 <a href="https://hanwoolhanwool.github.io/portfolio/">
   <img src="https://img.shields.io/badge/Portfolio-기여도까지_적은_케이스_문서-D9402A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
@@ -33,6 +26,15 @@
 <a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">
   <img src="https://img.shields.io/badge/Released-카피바라_몸짱_만들기_·_토스_인기_87위-181717?style=for-the-badge&logo=unity&logoColor=white" alt="Released">
 </a>
+
+</div>
+
+<br/>
+
+- **직관적이고 단순한 규칙**에서 **참신한 재미**가 나오는 게임을 추구
+- **협동 멀티플레이**, **생존·전투 루프 설계**, **입력 파이프라인 구현** 강점
+- 토스 앱인에 게임 하나를 출시해 **라이브 개선까지 한 사이클** 완주
+- 설계 근거를 **문서와 테스트로 남기는** 개발을 지향
 
 <br/>
 
