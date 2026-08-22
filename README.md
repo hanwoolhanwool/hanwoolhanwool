@@ -1,12 +1,11 @@
 <!--
 ═══════════════════════════════════════════════════════════════════════════
-  📷 이미지 자리 안내 — 남은 두 곳이 비어 있습니다.
+  📷 이미지 자리 안내 — 남은 곳은 한 군데입니다.
   파일을 이 저장소 assets/ 에 올린 뒤, 해당 위치의 <img> 주석을 풀면 끝납니다.
 
     ① mecha.png       Mecha Survivor 인게임
-    ② idle.png        Idle Game 인게임
 
-  채워진 곳 : train.jpg · capybara.jpg · gesture.jpg · wizard.jpg
+  채워진 곳 : train.jpg · idle.jpg · capybara.jpg · gesture.jpg · wizard.jpg
 
   권장 1000 × 560 (화면에는 500px 폭으로 보입니다). 세로로 하나씩 놓이므로
   비율이 조금 달라도 줄이 어긋나지 않고, 한 장씩 따로 채워도 됩니다.
@@ -154,8 +153,7 @@
 
 <img src="https://img.shields.io/badge/SUB-17705B?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Idle-Game)
 
-<!-- 📷 ② assets/idle.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
-<!-- <img width="500" alt="Idle Game 플레이 화면" src="./assets/idle.png" /> -->
+<img width="500" alt="Idle Game 플레이 화면" src="./assets/idle.jpg" />
 
 <br/>
 
@@ -205,7 +203,7 @@
 
 ### ✋ 열받는 게임
 
-[🔗 케이스 문서](https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html) &nbsp;·&nbsp;
+[🔗 케이스 문서](https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html)
 
 <img width="500" alt="열받는 게임 플레이 화면" src="./assets/gesture.jpg" />
 
