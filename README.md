@@ -105,8 +105,8 @@
 
 <br/>
 
-**Overview** : 멈추면 죽는 열차 위에서 짓고, 싸우고, 살아남는 1~4인 협동 생존 크래프팅  
-`Unity 6` · `URP` · `Netcode for GameObjects` · 1인 개발 · 2026.07 –
+**Overview** : 1~4인 협동 생존 크래프팅  
+2026.07 – 진행중
 
 <br/>
 
@@ -132,8 +132,8 @@
 
 <br/>
 
-**Overview** : 자동 발사 대신 수동 조준으로 20분을 버티는 3D 공중전 뱀서라이크  
-`Unity 6` · `URP` · 1인 개발 · 2026.07 –
+**Overview** : 3D 공중전 메카 뱀서라이크  
+2026.07 – 진행중
 
 <br/>
 
@@ -159,8 +159,8 @@
 
 <br/>
 
-**Overview** : 자동으로 도는 성장 루프 위에 직접 개입하는 전투를 얹은 방치형 하이브리드  
-`Unity` · `C#` · 1인 개발 · 2026.03 –
+**Overview** : 방치형 어드벤처  
+2026.03 – 진행중
 
 <br/>
 
@@ -205,7 +205,7 @@
 
 ### ✋ 열받는 게임
 
-[🔗 케이스 문서](https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html) &nbsp;·&nbsp; [▶ 플레이 영상](https://www.youtube.com/watch?v=7osWbFsI9w4)
+[🔗 케이스 문서](https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html) &nbsp;·&nbsp;
 
 <img width="500" alt="열받는 게임 플레이 화면" src="./assets/gesture.jpg" />
 
