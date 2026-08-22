@@ -16,9 +16,9 @@
 ═══════════════════════════════════════════════════════════════════════════
 -->
 
-# 🚂 이한울 | Unity Game Client Developer
+# 이한울 | Game Client Developer
 
-안녕하세요! **게임이 입력을 받아 화면에 닿기까지의 구간**을 만드는 개발자 이한울입니다.
+**게임이 재미있을 때까지 연마하는** 개발자 이한울입니다.
 
 <br/>
 
@@ -71,8 +71,12 @@
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 <img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white">
 <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white">
+<img src="https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white">
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white">
 <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
+&nbsp;
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white">
+<img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logoColor=white">
 </p>
 
 설계 · 최적화 &nbsp;—&nbsp; `FSM` `ScriptableObject` `Event Bus` `Service Locator` `Object Pooling` `Addressables` `async/await`
@@ -249,12 +253,17 @@
 
 # 🧭 작업 방식
 
-| 이렇게 일합니다 | 확인할 수 있는 곳 |
-|---|---|
-| 스폰 · 이벤트 · 전역 접근을 인프라 계층으로 분리하고, 그 규칙을 컨벤션 문서로 고정한다 | [Train-Survival `docs/conventions`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/conventions) |
-| 회귀는 테스트로 막는다 — EditMode 753개가 매 커밋의 기준선 | [Train-Survival](https://github.com/hanwoolhanwool/Train-Survival) |
-| 왜 그렇게 설계했는지를 명세로 남긴다 — Player 도메인 하나에 10편 | [Idle-Game `docs/specs`](https://github.com/hanwoolhanwool/Idle-Game/tree/main/docs/specs/player) |
-| 도구를 파이프라인에 붙여 1인 개발 속도를 만든다 (Claude Code · MCP · Meshy) | [Train-Survival 아트 파이프라인](https://github.com/hanwoolhanwool/Train-Survival) |
+기능 하나를 **초기 세팅 → 구현 계획 → 구현·QA → 문서화** 순서로 통과시킵니다.
+계획서와 검증 항목, 완성 명세가 전부 저장소에 남아 있어 **결과물뿐 아니라 과정도 열어 볼 수 있습니다.**
+
+| 단계 | 하는 일 | 남는 것 |
+|---|---|---|
+| **1 · 초기 세팅** | 어셈블리 계층 · 폴더 배치 · 코드 컨벤션 · 테스트 러너 · 커밋 규약을 **코드 한 줄 쓰기 전에** 고정한다 | [`docs/conventions`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/conventions) |
+| **2 · 구현 계획** | 마일스톤을 기능 단위로 쪼개 **구현 계획서**를 먼저 쓴다 — 범위 · 순서 · 완료 조건을 문서에서 확정하고 시작한다 | [`docs/plans`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/plans) |
+| **3 · 구현 · QA** | 구현과 함께 **플레이 검증 항목**을 만들어 직접 돌리고, 나온 문제는 후속 수정으로 계획서에 다시 적는다. 회귀는 **EditMode 테스트**가 막는다 | [플레이 검증 항목](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/plans/M8) · [EditMode 753개](https://github.com/hanwoolhanwool/Train-Survival/tree/main/Assets/_Project/Tests) |
+| **4 · 문서화** | 완성된 기능은 **as-built 명세**로 남겨, 다음 기능이 추측이 아니라 그 문서 위에서 시작하게 한다 | [`docs/specs`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/specs) |
+
+<sub>같은 방식을 Idle Game 에도 적용해, Player 도메인 하나에 <a href="https://github.com/hanwoolhanwool/Idle-Game/tree/main/docs/specs/player">기술 명세 10편</a>이 남아 있습니다.</sub>
 
 <br/>
 
