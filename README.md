@@ -16,13 +16,21 @@
 
 <div align="center">
 
-### 이한울 &nbsp;·&nbsp; Game Client Developer
+### 일상 속에 스며드는 게임을 만드는
 
-**일상 속에 스며드는 게임**을 만드는 클라이언트 개발자, 이한울입니다. 
-SOLID 원칙과 객체지향 설계를 일관되게 적용해 확장성과 유지보수성이 뛰어난 게임을 개발합니다.
+클라이언트 개발자, 이한울입니다.
+
+<a href="https://hanwoolhanwool.github.io/portfolio/">
+  <img src="https://img.shields.io/badge/Portfolio-기여도까지_적은_케이스_문서-D9402A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
+</a>
+<a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">
+  <img src="https://img.shields.io/badge/Released-카피바라_몸짱_만들기_·_토스_인기_87위-181717?style=for-the-badge&logo=unity&logoColor=white" alt="Released">
+</a>
+
 </div>
 
 <br/>
+
 - 직관적이고 단순한 규칙에서 참신한 재미가 만들어지는 게임을 설계합니다.
 - 기획부터 개발, 아트까지 직접 수행하며 아이디어를 플레이 가능한 게임으로 구현합니다.
 - 협동 멀티플레이, 생존·전투 루프 설계, 안정적인 입력 시스템 구현에 강점이 있습니다.
