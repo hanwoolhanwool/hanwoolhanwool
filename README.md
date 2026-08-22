@@ -30,23 +30,6 @@
 - 프로젝트 초기 설계부터 개발 계획, 구현, QA, 문서화, 출시까지 전 과정을 체계적으로 운영합니다.
 - SOLID 원칙과 객체지향 설계를 일관되게 적용해 확장성과 유지보수성이 뛰어난 게임을 개발합니다.
 
-<br/>
-
-# 📚 Contents
-
-- [💪 강점](#-강점)
-- [🛠 Tech Stack](#-tech-stack)
-- [🚀 Projects](#-projects)
-  - [🚂 Train Survival](#-train-survival)
-  - [🤖 Mecha Survivor](#-mecha-survivor)
-  - [💤 Idle Game](#-idle-game)
-  - [🦫 카피바라 몸짱 만들기](#-카피바라-몸짱-만들기)
-  - [✋ 열받는 게임](#-열받는-게임)
-  - [🧙 Trophy Hunter : Wizard War](#-trophy-hunter--wizard-war)
-- [🏃 Career](#-career)
-- [📫 Contact](#-contact)
-
-<br/>
 
 <br/>
 
