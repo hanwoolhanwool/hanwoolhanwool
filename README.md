@@ -86,6 +86,8 @@
 &nbsp;
 <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white">
 <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/Meshy_AI-A855F7?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/Tripo-14B8A6?style=flat-square&logoColor=white">
 </p>
 
 설계 · 최적화 &nbsp;—&nbsp; `FSM` `ScriptableObject` `Event Bus` `Service Locator` `Object Pooling` `Addressables` `async/await`
