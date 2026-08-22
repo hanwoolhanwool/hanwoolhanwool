@@ -58,11 +58,24 @@
 
 # 🛠 Tech Stack
 
-`Unity 6` `C#` `URP` `Netcode for GameObjects` `Photon PUN2` `WebGL` `Android AAB`
+<p>
+<img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/URP-2C2C2C?style=flat-square&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/Netcode_for_GameObjects-1B4B72?style=flat-square&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/Photon_PUN2-0B7AC7?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white">
+<img src="https://img.shields.io/badge/Android_AAB-3DDC84?style=flat-square&logo=android&logoColor=white">
+&nbsp;
+<img src="https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white">
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white">
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
+</p>
 
-`FSM` `ScriptableObject` `Event Bus` `Service Locator` `Object Pooling` `Addressables` `async/await`
-
-`Rider` `Git` `Blender` `Jira` `Figma` `Notion`
+설계 · 최적화 &nbsp;—&nbsp; `FSM` `ScriptableObject` `Event Bus` `Service Locator` `Object Pooling` `Addressables` `async/await`
 
 <br/>
 
