@@ -1,14 +1,18 @@
 <!--
 ═══════════════════════════════════════════════════════════════════════════
-  📷 이미지 자리 안내 — 아래 4곳이 비어 있습니다.
+  📷 이미지 자리 안내 — 아래 6곳이 비어 있습니다.
   파일을 이 저장소 assets/ 에 올린 뒤, 해당 위치의 <img> 주석을 풀면 끝납니다.
 
     ① banner.png       1200 × 260   상단 배너 (선택)
-    ② capybara.png     800 × 450    카피바라 인게임
-    ③ train.png        800 × 450    Train Survival 인게임
-    ④ gesture.png      800 × 450    열받는 게임 (손동작 인식 화면이면 더 좋음)
+    ── 진행 중 (한 줄에 3장, 셋 다 같은 16:9 로 잘라야 줄이 맞습니다)
+    ② train.png        800 × 450    Train Survival 인게임
+    ③ mecha.png        800 × 450    Mecha Survivor 인게임
+    ④ idle.png         800 × 450    Idle Game 인게임
+    ── 출시 · 팀 (한 줄에 2장, 둘 다 같은 16:9)
+    ⑤ capybara.png     800 × 450    카피바라 인게임
+    ⑥ gesture.png      800 × 450    열받는 게임 (손 인식 화면이면 더 좋음)
 
-  ②③④ 는 가로로 나란히 놓이므로 셋 다 같은 16:9 로 잘라야 줄이 맞습니다.
+  한 줄 안에서는 전부 있거나 전부 없어야 줄이 어긋나지 않습니다.
   움직이는 게 필요하면 .gif 도 그대로 됩니다 (5MB 이하 권장).
 ═══════════════════════════════════════════════════════════════════════════
 -->
@@ -21,27 +25,74 @@
 ### 이한울 &nbsp;·&nbsp; Unity Game Client Developer
 
 **게임이 입력을 받아 화면에 닿기까지의 구간**을 만듭니다.<br>
-기획 → 구현 → 빌드 → 스토어 배포 → 라이브 개선까지 한 사이클을 끝까지 돌려 봤고,<br>
-지금은 Unity 6 + Netcode 로 1~4인 협동 생존 게임을 혼자 만들고 있습니다.
+토스 앱인에 게임 하나를 출시해 라이브 개선까지 한 사이클을 돌려 봤고,<br>
+지금은 Unity 6 로 세 개를 동시에 굴리고 있습니다.
 
 <a href="https://hanwoolhanwool.github.io/portfolio/">
   <img src="https://img.shields.io/badge/Portfolio-기여도까지_적은_케이스_문서-D9402A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
 </a>
-<a href="https://github.com/hanwoolhanwool/Train-Survival">
-  <img src="https://img.shields.io/badge/Now_Building-Train_Survival-181717?style=for-the-badge&logo=github&logoColor=white" alt="Train Survival">
+<a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">
+  <img src="https://img.shields.io/badge/Released-카피바라_몸짱_만들기_·_토스_인기_87위-181717?style=for-the-badge&logo=unity&logoColor=white" alt="Released">
 </a>
 
 </div>
 
 <br>
 
-## 대표 프로젝트
+## 진행 중 · 1인 개발
 
 <table>
 <tr>
 
 <td width="33.3%" valign="top">
-<!-- 📷 ② 카피바라 — assets/capybara.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- 📷 ② Train Survival — assets/train.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img src="./assets/train.png" width="100%" alt="Train Survival 플레이 화면"> -->
+<p>
+<sub>2026.07 – &nbsp;·&nbsp; Unity 6 · URP · Netcode for GameObjects</sub><br>
+<b>Train Survival</b><br>
+멈추면 죽는 열차 위에서 짓고, 싸우고, 살아남는 <b>1~4인 협동 생존 크래프팅</b>.<br>
+기획부터 네트워크·아트 파이프라인까지 혼자 굴리는 현재 메인 프로젝트입니다.
+</p>
+<sub>커밋 531 &nbsp;·&nbsp; 스크립트 308 &nbsp;·&nbsp; EditMode 753 통과</sub><br>
+<a href="https://github.com/hanwoolhanwool/Train-Survival">저장소 →</a>
+</td>
+
+<td width="33.3%" valign="top">
+<!-- 📷 ③ Mecha Survivor — assets/mecha.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img src="./assets/mecha.png" width="100%" alt="Mecha Survivor 플레이 화면"> -->
+<p>
+<sub>2026.07 – &nbsp;·&nbsp; Unity 6 · URP</sub><br>
+<b>Mecha Survivor</b><br>
+뱀서라이크에서 <b>성장 구조만</b> 빌려오고 전투는 액션 슈터로 만든 3D 공중전.<br>
+자동 발사 대신 수동 조준과 쿨다운 로테이션으로 20분을 버팁니다.
+</p>
+<sub>커밋 72 &nbsp;·&nbsp; 스크립트 192 &nbsp;·&nbsp; 어셈블리 5개 단방향 의존</sub><br>
+<a href="https://github.com/hanwoolhanwool/Mecha-Survivor">저장소 →</a>
+</td>
+
+<td width="33.3%" valign="top">
+<!-- 📷 ④ Idle Game — assets/idle.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img src="./assets/idle.png" width="100%" alt="Idle Game 플레이 화면"> -->
+<p>
+<sub>2026.03 – &nbsp;·&nbsp; Unity · C#</sub><br>
+<b>Idle Game</b><br>
+자동으로 도는 성장 루프 위에 <b>직접 개입하는 전투</b>를 얹은 방치형 하이브리드.<br>
+기능마다 왜 그렇게 설계했는지를 기술 명세로 남기는 저장소입니다.
+</p>
+<sub>스크립트 145 &nbsp;·&nbsp; 기술 명세 11편 &nbsp;·&nbsp; Player 도메인만 10편</sub><br>
+<a href="https://github.com/hanwoolhanwool/Idle-Game">저장소 →</a>
+</td>
+
+</tr>
+</table>
+
+## 출시 · 팀 프로젝트
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+<!-- 📷 ⑤ 카피바라 — assets/capybara.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img src="./assets/capybara.png" width="100%" alt="카피바라 몸짱 만들기 플레이 화면"> -->
 <p>
 <sub><b>2026.04.10 출시</b> &nbsp;·&nbsp; 2인 팀 &nbsp;·&nbsp; 2025.07 – 2026.06</sub><br>
@@ -53,24 +104,11 @@
 <a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">케이스 문서 →</a>
 </td>
 
-<td width="33.3%" valign="top">
-<!-- 📷 ③ Train Survival — assets/train.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
-<!-- <img src="./assets/train.png" width="100%" alt="Train Survival 플레이 화면"> -->
-<p>
-<sub><b>진행 중</b> &nbsp;·&nbsp; 1인 개발 &nbsp;·&nbsp; 2026.07 –</sub><br>
-<b>Train Survival</b><br>
-멈추면 죽는 열차 위에서 짓고, 싸우고, 살아남는 <b>1~4인 협동 생존 크래프팅</b>.<br>
-Unity 6 · URP · Netcode for GameObjects. 기획·아트 파이프라인·네트워크를 혼자 굴립니다.
-</p>
-<sub>커밋 531 &nbsp;·&nbsp; 스크립트 308 &nbsp;·&nbsp; EditMode 753 통과</sub><br>
-<a href="https://github.com/hanwoolhanwool/Train-Survival">저장소 →</a>
-</td>
-
-<td width="33.3%" valign="top">
-<!-- 📷 ④ 열받는 게임 — assets/gesture.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<td width="50%" valign="top">
+<!-- 📷 ⑥ 열받는 게임 — assets/gesture.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img src="./assets/gesture.png" width="100%" alt="열받는 게임 플레이 화면"> -->
 <p>
-<sub><b>팀 프로젝트</b> &nbsp;·&nbsp; 3인 팀 &nbsp;·&nbsp; 2026.05 – 06</sub><br>
+<sub>3인 팀 &nbsp;·&nbsp; 2026.05 – 06 &nbsp;·&nbsp; Unity 6 · MediaPipe</sub><br>
 <b>열받는 게임</b><br>
 키보드 대신 <b>웹캠 앞의 손동작</b>으로 조작하는 3D 액션.<br>
 MediaPipe 추론이 게임 명령이 되기까지의 5레이어 입력 파이프라인을 전 구간 설계했습니다.
@@ -88,8 +126,6 @@ MediaPipe 추론이 게임 명령이 되기까지의 5레이어 입력 파이프
 | 프로젝트 | 규모 · 기간 | 한 줄 | |
 |---|---|---|---|
 | **Trophy Hunter : Wizard War** | 4인 · 2025.10 – 11 | PUN2 기반 1인칭 4인 마법 배틀 — 매칭·룸 진행·방장 교체·이탈 복구 담당 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/wizard-war-portfolio.html) |
-| **Mecha Survivor** | 1인 · 2026.07 – | 자동 발사 대신 **수동 조준**으로 20분을 버티는 3D 공중전 뱀서라이크 | [저장소](https://github.com/hanwoolhanwool/Mecha-Survivor) |
-| **Idle Game** | 1인 · 2026.03 – 07 | 방치형 + 능동 전투 하이브리드 — Player 도메인 하나에 기술 명세 10편 | [저장소](https://github.com/hanwoolhanwool/Idle-Game) |
 | **오목 게임** | 팀 · 2025.09 | 유니티 멀티플레이 오목 | [저장소](https://github.com/Adonis0219/Omok-18) |
 | **모의 면접 시뮬레이터** | 캡스톤 · 2025.03 – 06 | STT + Claude / ChatGPT API로 면접 답변 자동 채점 | |
 | **Ocean Rescue** | 캡스톤 · 2024.09 – 12 | 환경 오염 인식 개선을 주제로 기획·개발 | [저장소](https://github.com/Sanpy-sky/Ocean-Rescue) |
