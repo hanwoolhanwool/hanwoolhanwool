@@ -1,20 +1,19 @@
 <!--
 ═══════════════════════════════════════════════════════════════════════════
-  📷 이미지 자리 안내 — 아래 7곳이 비어 있습니다.
+  📷 이미지 자리 안내 — 아래 6곳이 비어 있습니다.
   파일을 이 저장소 assets/ 에 올린 뒤, 해당 위치의 <img> 주석을 풀면 끝납니다.
 
     ① banner.png       1200 × 260   상단 배너 (선택)
-    ── 진행 중 (한 줄에 3장)
+    ── 진행 중 (한 줄에 3장, 셋 다 같은 16:9 로 잘라야 줄이 맞습니다)
     ② train.png        800 × 450    Train Survival 인게임
     ③ mecha.png        800 × 450    Mecha Survivor 인게임
     ④ idle.png         800 × 450    Idle Game 인게임
-    ── 출시 · 팀 (한 줄에 3장)
+    ── 출시 · 팀 (한 줄에 2장, 둘 다 같은 16:9)
     ⑤ capybara.png     800 × 450    카피바라 인게임
     ⑥ gesture.png      800 × 450    열받는 게임 (손 인식 화면이면 더 좋음)
-    ⑦ wizard.png       800 × 450    Trophy Hunter : Wizard War 인게임
 
-  한 줄 안에서는 전부 있거나 전부 없어야 카드 높이가 어긋나지 않습니다.
-  전부 같은 16:9 로 자르고, 움직이는 게 필요하면 .gif 도 그대로 됩니다 (5MB 이하 권장).
+  한 줄 안에서는 전부 있거나 전부 없어야 줄이 어긋나지 않습니다.
+  움직이는 게 필요하면 .gif 도 그대로 됩니다 (5MB 이하 권장).
 ═══════════════════════════════════════════════════════════════════════════
 -->
 
@@ -49,9 +48,6 @@
 <!-- 📷 ② Train Survival — assets/train.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img src="./assets/train.png" width="100%" alt="Train Survival 플레이 화면"> -->
 <p>
-<img src="https://img.shields.io/badge/MAIN-D9402A?style=for-the-badge" alt="메인 프로젝트">
-</p>
-<p>
 <sub>2026.07 – &nbsp;·&nbsp; Unity 6 · URP · Netcode for GameObjects</sub><br>
 <b>Train Survival</b><br>
 멈추면 죽는 열차 위에서 짓고, 싸우고, 살아남는 <b>1~4인 협동 생존 크래프팅</b>.<br>
@@ -65,9 +61,6 @@
 <!-- 📷 ③ Mecha Survivor — assets/mecha.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img src="./assets/mecha.png" width="100%" alt="Mecha Survivor 플레이 화면"> -->
 <p>
-<img src="https://img.shields.io/badge/SUB-14708F?style=flat-square" alt="서브 프로젝트">
-</p>
-<p>
 <sub>2026.07 – &nbsp;·&nbsp; Unity 6 · URP</sub><br>
 <b>Mecha Survivor</b><br>
 뱀서라이크에서 <b>성장 구조만</b> 빌려오고 전투는 액션 슈터로 만든 3D 공중전.<br>
@@ -80,9 +73,6 @@
 <td width="33.3%" valign="top">
 <!-- 📷 ④ Idle Game — assets/idle.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img src="./assets/idle.png" width="100%" alt="Idle Game 플레이 화면"> -->
-<p>
-<img src="https://img.shields.io/badge/SUB-17705B?style=flat-square" alt="서브 프로젝트">
-</p>
 <p>
 <sub>2026.03 – &nbsp;·&nbsp; Unity · C#</sub><br>
 <b>Idle Game</b><br>
@@ -101,11 +91,11 @@
 <table>
 <tr>
 
-<td width="33.3%" valign="top">
+<td width="50%" valign="top">
 <!-- 📷 ⑤ 카피바라 — assets/capybara.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img src="./assets/capybara.png" width="100%" alt="카피바라 몸짱 만들기 플레이 화면"> -->
 <p>
-<sub><b>2026.04.10 출시</b> &nbsp;·&nbsp; 2인 팀 &nbsp;·&nbsp; 2025.07 – 2026.06</sub><br>
+<sub><b>2026.04.10 출시</b> &nbsp;·&nbsp; 2인 팀 &nbsp;·&nbsp; 2025.10 – 2025.12</sub><br>
 <b>카피바라 몸짱 만들기</b><br>
 토스 앱인에 올린 WebGL 리듬 게임. <b>인기 87위</b>.<br>
 기획·개발 총괄 — 판정 로직부터 리더보드 연동, 성능 최적화, WebGL·AAB 빌드와 출시 후 라이브 개선까지.
@@ -114,7 +104,7 @@
 <a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">케이스 문서 →</a>
 </td>
 
-<td width="33.3%" valign="top">
+<td width="50%" valign="top">
 <!-- 📷 ⑥ 열받는 게임 — assets/gesture.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img src="./assets/gesture.png" width="100%" alt="열받는 게임 플레이 화면"> -->
 <p>
@@ -128,21 +118,17 @@ MediaPipe 추론이 게임 명령이 되기까지의 5레이어 입력 파이프
 <a href="https://www.youtube.com/watch?v=7osWbFsI9w4">플레이 영상 →</a>
 </td>
 
-<td width="33.3%" valign="top">
-<!-- 📷 ⑦ Wizard War — assets/wizard.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
-<!-- <img src="./assets/wizard.png" width="100%" alt="Trophy Hunter : Wizard War 플레이 화면"> -->
-<p>
-<sub>4인 팀 &nbsp;·&nbsp; 2025.10 – 11 &nbsp;·&nbsp; Unity · Photon PUN2</sub><br>
-<b>Trophy Hunter : Wizard War</b><br>
-PUN2 기반 <b>1인칭 4인 마법 배틀</b>.<br>
-매칭부터 룸 진행, 방장 교체와 이탈 복구까지 멀티플레이가 끊기지 않게 하는 흐름을 맡았습니다.
-</p>
-<sub>커밋 153 &nbsp;·&nbsp; 매칭 시스템 81% 소유 &nbsp;·&nbsp; 자체 코드 19.9%</sub><br>
-<a href="https://hanwoolhanwool.github.io/portfolio/wizard-war-portfolio.html">케이스 문서 →</a>
-</td>
-
 </tr>
 </table>
+
+## 그 외 프로젝트
+
+| 프로젝트 | 규모 · 기간 | 한 줄 | |
+|---|---|---|---|
+| **Trophy Hunter : Wizard War** | 4인 · 2025.10 – 11 | PUN2 기반 1인칭 4인 마법 배틀 — 매칭·룸 진행·방장 교체·이탈 복구 담당 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/wizard-war-portfolio.html) |
+| **오목 게임** | 팀 · 2025.09 | 유니티 멀티플레이 오목 | [저장소](https://github.com/Adonis0219/Omok-18) |
+| **모의 면접 시뮬레이터** | 캡스톤 · 2025.03 – 06 | STT + Claude / ChatGPT API로 면접 답변 자동 채점 | |
+| **Ocean Rescue** | 캡스톤 · 2024.09 – 12 | 환경 오염 인식 개선을 주제로 기획·개발 | [저장소](https://github.com/Sanpy-sky/Ocean-Rescue) |
 
 <sub>팀 프로젝트의 기여 수치는 저장소를 클론해 <code>git log --author</code> 와 <code>git blame --line-porcelain</code> 으로 직접 집계했고, 담당이 아닌 영역도 케이스 문서에 함께 적어 두었습니다.</sub>
 
