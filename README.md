@@ -1,14 +1,13 @@
 <!--
 ═══════════════════════════════════════════════════════════════════════════
-  📷 이미지 자리 안내 — 프로젝트마다 한 장씩, 모두 6곳이 비어 있습니다.
+  📷 이미지 자리 안내 — 남은 세 곳(진행 중 프로젝트)이 비어 있습니다.
   파일을 이 저장소 assets/ 에 올린 뒤, 해당 위치의 <img> 주석을 풀면 끝납니다.
 
     ① train.png       Train Survival 인게임
     ② mecha.png       Mecha Survivor 인게임
     ③ idle.png        Idle Game 인게임
-    ④ capybara.png    카피바라 몸짱 만들기 인게임
-    ⑤ gesture.png     열받는 게임 (손 인식 화면이면 더 좋음)
-    ⑥ wizard.png      Trophy Hunter : Wizard War 인게임
+
+  채워진 곳 : capybara.jpg · gesture.jpg · wizard.jpg
 
   권장 1000 × 560 (화면에는 500px 폭으로 보입니다). 세로로 하나씩 놓이므로
   비율이 조금 달라도 줄이 어긋나지 않고, 한 장씩 따로 채워도 됩니다.
@@ -173,8 +172,7 @@
 
 [🔗 케이스 문서](https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html)
 
-<!-- 📷 ④ assets/capybara.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
-<!-- <img width="500" alt="카피바라 몸짱 만들기 플레이 화면" src="./assets/capybara.png" /> -->
+<img width="300" alt="카피바라 몸짱 만들기 캐릭터 도감 화면" src="./assets/capybara.jpg" />
 
 <br/>
 
@@ -200,8 +198,7 @@
 
 [🔗 케이스 문서](https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html) &nbsp;·&nbsp; [▶ 플레이 영상](https://www.youtube.com/watch?v=7osWbFsI9w4)
 
-<!-- 📷 ⑤ assets/gesture.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
-<!-- <img width="500" alt="열받는 게임 플레이 화면" src="./assets/gesture.png" /> -->
+<img width="500" alt="열받는 게임 플레이 화면" src="./assets/gesture.jpg" />
 
 <br/>
 
@@ -227,8 +224,7 @@
 
 [🔗 케이스 문서](https://hanwoolhanwool.github.io/portfolio/wizard-war-portfolio.html)
 
-<!-- 📷 ⑥ assets/wizard.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
-<!-- <img width="500" alt="Trophy Hunter : Wizard War 플레이 화면" src="./assets/wizard.png" /> -->
+<img width="500" alt="Trophy Hunter : Wizard War 플레이 화면" src="./assets/wizard.jpg" />
 
 <br/>
 
