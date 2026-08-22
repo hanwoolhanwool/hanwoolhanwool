@@ -20,13 +20,6 @@
 
 클라이언트 개발자, 이한울입니다.
 
-<a href="https://hanwoolhanwool.github.io/portfolio/">
-  <img src="https://img.shields.io/badge/Portfolio-기여도까지_적은_케이스_문서-D9402A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
-</a>
-<a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">
-  <img src="https://img.shields.io/badge/Released-카피바라_몸짱_만들기_·_토스_인기_87위-181717?style=for-the-badge&logo=unity&logoColor=white" alt="Released">
-</a>
-
 </div>
 
 <br/>
