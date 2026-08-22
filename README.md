@@ -20,10 +20,11 @@
 
 <br/>
 
+- **기획 · 아트 · 개발을 혼자 한 바퀴** 돌려 게임 하나를 굴러가는 상태까지 만듭니다
+- 1인 개발이어도 **세팅 → 계획 → QA → 문서화** 절차를 그대로 지킵니다
+- **협동 멀티플레이**, **생존 · 전투 루프 설계**, **입력 파이프라인 구현** 강점
 - **직관적이고 단순한 규칙**에서 **참신한 재미**가 나오는 게임을 추구
-- **협동 멀티플레이**, **생존·전투 루프 설계**, **입력 파이프라인 구현** 강점
 - 토스 앱인에 게임 하나를 출시해 **라이브 개선까지 한 사이클** 완주
-- 설계 근거를 **문서와 테스트로 남기는** 개발을 지향
 
 <br/>
 
@@ -38,6 +39,7 @@
 
 # 📚 Contents
 
+- [💪 강점](#-강점)
 - [🛠 Tech Stack](#-tech-stack)
 - [🚀 Projects](#-projects)
   - [🚂 Train Survival](#-train-survival)
@@ -46,11 +48,43 @@
   - [🦫 카피바라 몸짱 만들기](#-카피바라-몸짱-만들기)
   - [✋ 열받는 게임](#-열받는-게임)
   - [🧙 Trophy Hunter : Wizard War](#-trophy-hunter--wizard-war)
-- [🧭 작업 방식](#-작업-방식)
 - [🏃 Career](#-career)
 - [📫 Contact](#-contact)
 
 <br/>
+
+<br/>
+
+# 💪 강점
+
+## 🎯 기획 · 아트 · 개발을 혼자 완주합니다
+
+게임 하나가 굴러가려면 필요한 세 축을 **전부 직접** 만듭니다. 외주나 팀원을 기다려서 막히는 구간이 없습니다.
+
+| | 직접 하는 일 | 확인할 수 있는 곳 |
+|---|---|---|
+| **기획** | 코어 루프 · 세계관 · 밸런스를 **기획서로 확정하고** 구현을 시작한다 | Train Survival 기획서 · 세계관 · 비주얼/UIUX · 오디오 · 아트 예산 [문서 6종](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/design) |
+| **아트** | Blender 와 생성형 3D 도구로 에셋을 직접 만들고 다듬어 **URP 에 얹는다** | [Mecha Survivor 리그 · 히어로 포즈 문서](https://github.com/hanwoolhanwool/Mecha-Survivor/tree/main/Docs) · Train Survival 열차 · 지형 아트 패스 |
+| **개발** | 클라이언트 · 네트워크 · UI · 에디터 툴까지 **전부 직접 쓴다** | Train Survival 스크립트 308개 · Netcode 1~4인 멀티플레이 |
+
+**Train Survival** 은 이 셋을 혼자 돌려 만들고 있는 프로젝트이고,
+**카피바라 몸짱 만들기** 는 2인 팀에서 기획 · 개발 총괄과 아트를 맡아 **출시까지** 끌고 간 결과물입니다.
+
+<br/>
+
+## 🧭 혼자여도 팀처럼 굴립니다
+
+1인 개발이라고 절차를 건너뛰지 않습니다. 기능 하나가 **초기 세팅 → 구현 계획 → 구현 · QA → 문서화** 를 순서대로 통과하고,
+그 흔적이 전부 저장소에 남아 **결과물뿐 아니라 과정도 열어 볼 수 있습니다.**
+
+| 단계 | 하는 일 | 남는 것 |
+|---|---|---|
+| **1 · 초기 세팅** | 어셈블리 계층 · 폴더 배치 · 코드 컨벤션 · 테스트 러너 · 커밋 규약을 **코드 한 줄 쓰기 전에** 고정한다 | [`docs/conventions`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/conventions) |
+| **2 · 구현 계획** | 마일스톤을 기능 단위로 쪼개 **구현 계획서**를 먼저 쓴다 — 범위 · 순서 · 완료 조건을 문서에서 확정하고 시작한다 | [`docs/plans`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/plans) |
+| **3 · 구현 · QA** | 구현과 함께 **플레이 검증 항목**을 만들어 직접 돌리고, 나온 문제는 후속 수정으로 계획서에 다시 적는다. 회귀는 **EditMode 테스트**가 막는다 | [플레이 검증 항목](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/plans/M8) · [EditMode 753개](https://github.com/hanwoolhanwool/Train-Survival/tree/main/Assets/_Project/Tests) |
+| **4 · 문서화** | 완성된 기능은 **as-built 명세**로 남겨, 다음 기능이 추측이 아니라 그 문서 위에서 시작하게 한다 | [`docs/specs`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/specs) |
+
+<sub>같은 방식을 Idle Game 에도 적용해, Player 도메인 하나에 <a href="https://github.com/hanwoolhanwool/Idle-Game/tree/main/docs/specs/player">기술 명세 10편</a>이 남아 있습니다.</sub>
 
 <br/>
 
@@ -242,22 +276,6 @@
 <br/>
 
 <sub>팀 프로젝트의 기여 수치는 저장소를 클론해 <code>git log --author</code> 와 <code>git blame --line-porcelain</code> 으로 직접 집계했고, 담당이 아닌 영역도 케이스 문서에 함께 적어 두었습니다.</sub>
-
-<br/>
-
-# 🧭 작업 방식
-
-기능 하나를 **초기 세팅 → 구현 계획 → 구현·QA → 문서화** 순서로 통과시킵니다.
-계획서와 검증 항목, 완성 명세가 전부 저장소에 남아 있어 **결과물뿐 아니라 과정도 열어 볼 수 있습니다.**
-
-| 단계 | 하는 일 | 남는 것 |
-|---|---|---|
-| **1 · 초기 세팅** | 어셈블리 계층 · 폴더 배치 · 코드 컨벤션 · 테스트 러너 · 커밋 규약을 **코드 한 줄 쓰기 전에** 고정한다 | [`docs/conventions`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/conventions) |
-| **2 · 구현 계획** | 마일스톤을 기능 단위로 쪼개 **구현 계획서**를 먼저 쓴다 — 범위 · 순서 · 완료 조건을 문서에서 확정하고 시작한다 | [`docs/plans`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/plans) |
-| **3 · 구현 · QA** | 구현과 함께 **플레이 검증 항목**을 만들어 직접 돌리고, 나온 문제는 후속 수정으로 계획서에 다시 적는다. 회귀는 **EditMode 테스트**가 막는다 | [플레이 검증 항목](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/plans/M8) · [EditMode 753개](https://github.com/hanwoolhanwool/Train-Survival/tree/main/Assets/_Project/Tests) |
-| **4 · 문서화** | 완성된 기능은 **as-built 명세**로 남겨, 다음 기능이 추측이 아니라 그 문서 위에서 시작하게 한다 | [`docs/specs`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/specs) |
-
-<sub>같은 방식을 Idle Game 에도 적용해, Player 도메인 하나에 <a href="https://github.com/hanwoolhanwool/Idle-Game/tree/main/docs/specs/player">기술 명세 10편</a>이 남아 있습니다.</sub>
 
 <br/>
 
