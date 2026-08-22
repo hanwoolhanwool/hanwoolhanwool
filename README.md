@@ -1,13 +1,12 @@
 <!--
 ═══════════════════════════════════════════════════════════════════════════
-  📷 이미지 자리 안내 — 남은 세 곳(진행 중 프로젝트)이 비어 있습니다.
+  📷 이미지 자리 안내 — 남은 두 곳이 비어 있습니다.
   파일을 이 저장소 assets/ 에 올린 뒤, 해당 위치의 <img> 주석을 풀면 끝납니다.
 
-    ① train.png       Train Survival 인게임
-    ② mecha.png       Mecha Survivor 인게임
-    ③ idle.png        Idle Game 인게임
+    ① mecha.png       Mecha Survivor 인게임
+    ② idle.png        Idle Game 인게임
 
-  채워진 곳 : capybara.jpg · gesture.jpg · wizard.jpg
+  채워진 곳 : train.jpg · capybara.jpg · gesture.jpg · wizard.jpg
 
   권장 1000 × 560 (화면에는 500px 폭으로 보입니다). 세로로 하나씩 놓이므로
   비율이 조금 달라도 줄이 어긋나지 않고, 한 장씩 따로 채워도 됩니다.
@@ -91,8 +90,7 @@
 
 <img src="https://img.shields.io/badge/MAIN-D9402A?style=for-the-badge" alt="메인 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Train-Survival)
 
-<!-- 📷 ① assets/train.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
-<!-- <img width="500" alt="Train Survival 플레이 화면" src="./assets/train.png" /> -->
+<img width="500" alt="Train Survival 타이틀 화면" src="./assets/train.jpg" />
 
 <br/>
 
@@ -118,7 +116,7 @@
 
 <img src="https://img.shields.io/badge/SUB-14708F?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Mecha-Survivor)
 
-<!-- 📷 ② assets/mecha.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- 📷 ① assets/mecha.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img width="500" alt="Mecha Survivor 플레이 화면" src="./assets/mecha.png" /> -->
 
 <br/>
@@ -145,7 +143,7 @@
 
 <img src="https://img.shields.io/badge/SUB-17705B?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Idle-Game)
 
-<!-- 📷 ③ assets/idle.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- 📷 ② assets/idle.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
 <!-- <img width="500" alt="Idle Game 플레이 화면" src="./assets/idle.png" /> -->
 
 <br/>
