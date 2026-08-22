@@ -18,23 +18,16 @@
 
 ### 이한울 &nbsp;·&nbsp; Game Client Developer
 
-**게임이 재미있을 때까지 연마하는** 개발자 이한울입니다.
-
-<a href="https://hanwoolhanwool.github.io/portfolio/">
-  <img src="https://img.shields.io/badge/Portfolio-기여도까지_적은_케이스_문서-D9402A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
-</a>
-<a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">
-  <img src="https://img.shields.io/badge/Released-카피바라_몸짱_만들기_·_토스_인기_87위-181717?style=for-the-badge&logo=unity&logoColor=white" alt="Released">
-</a>
-
+**일상 속에 스며드는 게임**을 만드는 클라이언트 개발자, 이한울입니다. 
+SOLID 원칙과 객체지향 설계를 일관되게 적용해 확장성과 유지보수성이 뛰어난 게임을 개발합니다.
 </div>
 
 <br/>
-
-- **직관적이고 단순한 규칙**에서 **참신한 재미**가 나오는 게임을 추구
-- **협동 멀티플레이**, **생존·전투 루프 설계**, **입력 파이프라인 구현** 강점
-- 토스 앱인에 게임 하나를 출시해 **라이브 개선까지 한 사이클** 완주
-- 설계 근거를 **문서와 테스트로 남기는** 개발을 지향
+- 직관적이고 단순한 규칙에서 참신한 재미가 만들어지는 게임을 설계합니다.
+- 기획부터 개발, 아트까지 직접 수행하며 아이디어를 플레이 가능한 게임으로 구현합니다.
+- 협동 멀티플레이, 생존·전투 루프 설계, 안정적인 입력 시스템 구현에 강점이 있습니다.
+- 프로젝트 초기 설계부터 개발 계획, 구현, QA, 문서화, 출시까지 전 과정을 체계적으로 운영합니다.
+- SOLID 원칙과 객체지향 설계를 일관되게 적용해 확장성과 유지보수성이 뛰어난 게임을 개발합니다.
 
 <br/>
 
