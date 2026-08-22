@@ -1,75 +1,139 @@
-## Hi there, I'm Hanwool 👋
-작은 팀에서 빠르게 만들고 **출시까지 끝내는 것**에 관심 있는 Unity 게임 클라이언트 개발자, 이한울입니다 :)
+<!--
+═══════════════════════════════════════════════════════════════════════════
+  📷 이미지 자리 안내 — 아래 4곳이 비어 있습니다.
+  파일을 이 저장소 assets/ 에 올린 뒤, 해당 위치의 <img> 주석을 풀면 끝납니다.
 
-⚙ Tech Stack
----
-- **Engine :** Unity, C#, URP
-- **Network :** Netcode for GameObjects, Photon PUN2
-- **Optimize :** Object Pooling, Addressables, Async Loading
-- **Architecture :** FSM, ScriptableObject, Event Bus, async/await
-- **Tooling :** Github, Jira, Figma, Notion, Rider
-- **Littles :** AAB, WebGL, Claude Code, Meshy AI
+    ① banner.png       1200 × 260   상단 배너 (선택)
+    ② capybara.png     800 × 450    카피바라 인게임
+    ③ train.png        800 × 450    Train Survival 인게임
+    ④ gesture.png      800 × 450    열받는 게임 (손동작 인식 화면이면 더 좋음)
 
-🎮 Released
----
-- **카피바라 몸짱 만들기** (26.04.10 출시, 2인) <br>
-  토스 앱인에 출시한 하이퍼캐주얼 게임 · **인기 순위 87위** <br>
-  기획·개발 총괄, AAB 빌드와 스토어 배포 수행, 출시 후 유저 피드백으로 버그·밸런스·편의 기능 라이브 개선
+  ②③④ 는 가로로 나란히 놓이므로 셋 다 같은 16:9 로 잘라야 줄이 맞습니다.
+  움직이는 게 필요하면 .gif 도 그대로 됩니다 (5MB 이하 권장).
+═══════════════════════════════════════════════════════════════════════════
+-->
 
-💻 Projects
----
-- **Train Survival** (26.07.17 ~ ing, 1인) <br>
-  Unity 6로 1~4인 협동 생존 크래프팅 게임 개발 -> [Github](https://github.com/hanwoolhanwool/Train-Survival)
+<div align="center">
 
-- **Mecha Survivor** (26.07.09 ~ ing, 1인) <br>
-  자동 발사 대신 수동 조준으로 버티는 3D 공중전 뱀서라이크 -> [Github](https://github.com/hanwoolhanwool/Mecha-Survivor)
+<!-- 📷 ① 배너 — assets/banner.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img src="./assets/banner.png" width="100%" alt=""> -->
 
-- **Idle Game** (26.03.17 ~ ing, 1인) <br>
-  방치형 + 능동 전투 하이브리드, 상태 머신·스탯·스킬 시스템 기술 명세 -> [Github](https://github.com/hanwoolhanwool/Idle-Game)
+### 이한울 &nbsp;·&nbsp; Unity Game Client Developer
 
-- **열받는 게임** (팀 프로젝트) <br>
-  손 제스처로 조작하는 3D 액션 게임 · 입력 수단(제스처·키보드)을 갈아 끼울 수 있게 분리한 입력 파이프라인 설계, 플레이어·몬스터·보스와 레벨 디자인 담당 -> [플레이 영상](https://www.youtube.com/watch?v=7osWbFsI9w4)
+**게임이 입력을 받아 화면에 닿기까지의 구간**을 만듭니다.<br>
+기획 → 구현 → 빌드 → 스토어 배포 → 라이브 개선까지 한 사이클을 끝까지 돌려 봤고,<br>
+지금은 Unity 6 + Netcode 로 1~4인 협동 생존 게임을 혼자 만들고 있습니다.
 
-- **오목 게임 개발** (25.09, 팀 프로젝트) <br>
-  유니티로 멀티플레이 오목 게임 개발 -> [Github](https://github.com/Adonis0219/Omok-18)
-
-- **Trophy Hunter : Wizard War** (팀 프로젝트) <br>
-  PUN2 기반 실시간 동기화 구조를 구현한 1인칭 4인 마법 배틀 · 기획 + 클라이언트 + QA 겸임
-
-- **모의 면접 시뮬레이터** (25.03 ~ 25.06, 캡스톤) <br>
-  ChatGPT · Claude API와 STT를 연동해 면접 답변을 자동 점수 평가
-
-- **Ocean Rescue** (24.09 ~ 24.12, 캡스톤) <br>
-  환경 오염 인식 개선을 주제로 기획·개발한 게임 -> [Github](https://github.com/Sanpy-sky/Ocean-Rescue)
-
-🏃 Career
----
-- **[인턴십] 멋쟁이사자처럼 × 검은토끼흰토끼** (26.04.28 ~ 26.05.27) <br>
-  게임 클라이언트 개발
-- **멋쟁이사자처럼 유니티 게임 개발 5기** (25.05.13 ~ 25.12.12)
-- **전북 글로벌 게임센터 게임 콘텐츠 전문인력 양성과정 (UE5)** (24.07 ~ 24.08)
-- **원광대학교 게임콘텐츠학과** (19.03 ~ 26.03)
-- **유튜브 채널 운영** (22년) <br>
-  콘텐츠 기획·편집·업로드 전 과정 직접 수행, 누적 24만 조회수
-
-🏆 Awards
----
-- **2024** - 전북 게임콘텐츠 전문인력 양성과정(UE5) 우수상 (교외)
-- **2024** - 성적 우수 인재 표창장 — 아너스 클럽 (교내)
-
-✈ Contact
----
 <a href="https://hanwoolhanwool.github.io/portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-D9402A?style=for-the-badge&logo=githubpages&logoColor=white" />&nbsp
+  <img src="https://img.shields.io/badge/Portfolio-기여도까지_적은_케이스_문서-D9402A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
 </a>
-<a href="https://github.com/hanwoolhanwool">
-  <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white">
+<a href="https://github.com/hanwoolhanwool/Train-Survival">
+  <img src="https://img.shields.io/badge/Now_Building-Train_Survival-181717?style=for-the-badge&logo=github&logoColor=white" alt="Train Survival">
 </a>
 
-📊 Github Stats
----
-![Hanwool's GitHub stats](https://github-readme-stats.vercel.app/api?username=hanwoolhanwool&show_icons=true&theme=radical)
+</div>
 
-🕶 사용 언어
----
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hanwoolhanwool&layout=compact&theme=dark)
+<br>
+
+## 대표 프로젝트
+
+<table>
+<tr>
+
+<td width="33.3%" valign="top">
+<!-- 📷 ② 카피바라 — assets/capybara.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img src="./assets/capybara.png" width="100%" alt="카피바라 몸짱 만들기 플레이 화면"> -->
+<p>
+<sub><b>2026.04.10 출시</b> &nbsp;·&nbsp; 2인 팀 &nbsp;·&nbsp; 2025.07 – 2026.06</sub><br>
+<b>카피바라 몸짱 만들기</b><br>
+토스 앱인에 올린 WebGL 리듬 게임. <b>인기 87위</b>.<br>
+기획·개발 총괄 — 판정 로직부터 리더보드 연동, 성능 최적화, WebGL·AAB 빌드와 출시 후 라이브 개선까지.
+</p>
+<sub>커밋 68 &nbsp;·&nbsp; 스크립트 44/46 &nbsp;·&nbsp; 자체 코드 90.1%</sub><br>
+<a href="https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html">케이스 문서 →</a>
+</td>
+
+<td width="33.3%" valign="top">
+<!-- 📷 ③ Train Survival — assets/train.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img src="./assets/train.png" width="100%" alt="Train Survival 플레이 화면"> -->
+<p>
+<sub><b>진행 중</b> &nbsp;·&nbsp; 1인 개발 &nbsp;·&nbsp; 2026.07 –</sub><br>
+<b>Train Survival</b><br>
+멈추면 죽는 열차 위에서 짓고, 싸우고, 살아남는 <b>1~4인 협동 생존 크래프팅</b>.<br>
+Unity 6 · URP · Netcode for GameObjects. 기획·아트 파이프라인·네트워크를 혼자 굴립니다.
+</p>
+<sub>커밋 531 &nbsp;·&nbsp; 스크립트 308 &nbsp;·&nbsp; EditMode 753 통과</sub><br>
+<a href="https://github.com/hanwoolhanwool/Train-Survival">저장소 →</a>
+</td>
+
+<td width="33.3%" valign="top">
+<!-- 📷 ④ 열받는 게임 — assets/gesture.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img src="./assets/gesture.png" width="100%" alt="열받는 게임 플레이 화면"> -->
+<p>
+<sub><b>팀 프로젝트</b> &nbsp;·&nbsp; 3인 팀 &nbsp;·&nbsp; 2026.05 – 06</sub><br>
+<b>열받는 게임</b><br>
+키보드 대신 <b>웹캠 앞의 손동작</b>으로 조작하는 3D 액션.<br>
+MediaPipe 추론이 게임 명령이 되기까지의 5레이어 입력 파이프라인을 전 구간 설계했습니다.
+</p>
+<sub>커밋 197 &nbsp;·&nbsp; 전담 모듈 14,873줄 &nbsp;·&nbsp; 자체 코드 49.1%</sub><br>
+<a href="https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html">케이스 문서 →</a> &nbsp;|&nbsp;
+<a href="https://www.youtube.com/watch?v=7osWbFsI9w4">플레이 영상 →</a>
+</td>
+
+</tr>
+</table>
+
+## 그 외 프로젝트
+
+| 프로젝트 | 규모 · 기간 | 한 줄 | |
+|---|---|---|---|
+| **Trophy Hunter : Wizard War** | 4인 · 2025.10 – 11 | PUN2 기반 1인칭 4인 마법 배틀 — 매칭·룸 진행·방장 교체·이탈 복구 담당 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/wizard-war-portfolio.html) |
+| **Mecha Survivor** | 1인 · 2026.07 – | 자동 발사 대신 **수동 조준**으로 20분을 버티는 3D 공중전 뱀서라이크 | [저장소](https://github.com/hanwoolhanwool/Mecha-Survivor) |
+| **Idle Game** | 1인 · 2026.03 – 07 | 방치형 + 능동 전투 하이브리드 — Player 도메인 하나에 기술 명세 10편 | [저장소](https://github.com/hanwoolhanwool/Idle-Game) |
+| **오목 게임** | 팀 · 2025.09 | 유니티 멀티플레이 오목 | [저장소](https://github.com/Adonis0219/Omok-18) |
+| **모의 면접 시뮬레이터** | 캡스톤 · 2025.03 – 06 | STT + Claude / ChatGPT API로 면접 답변 자동 채점 | |
+| **Ocean Rescue** | 캡스톤 · 2024.09 – 12 | 환경 오염 인식 개선을 주제로 기획·개발 | [저장소](https://github.com/Sanpy-sky/Ocean-Rescue) |
+
+<sub>팀 프로젝트의 기여 수치는 저장소를 클론해 <code>git log --author</code> 와 <code>git blame --line-porcelain</code> 으로 직접 집계했고, 담당이 아닌 영역도 케이스 문서에 함께 적어 두었습니다.</sub>
+
+## 기술
+
+<p>
+<img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/URP-2C2C2C?style=flat-square&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/Netcode_for_GameObjects-1B4B72?style=flat-square&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/Photon_PUN2-0B7AC7?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white">
+<img src="https://img.shields.io/badge/Android_AAB-3DDC84?style=flat-square&logo=android&logoColor=white">
+&nbsp;
+<img src="https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white">
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white">
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
+</p>
+
+설계 · 최적화 &nbsp;—&nbsp; `FSM` `ScriptableObject` `Event Bus` `Service Locator` `Object Pooling` `Addressables` `async/await`
+
+| 이렇게 일합니다 | 확인할 수 있는 곳 |
+|---|---|
+| 스폰·이벤트·전역 접근을 인프라 계층으로 분리하고, 그 규칙을 컨벤션 문서로 고정한다 | [Train-Survival `docs/conventions`](https://github.com/hanwoolhanwool/Train-Survival/tree/main/docs/conventions) |
+| 회귀는 테스트로 막는다 — EditMode 753개가 매 커밋의 기준선 | [Train-Survival](https://github.com/hanwoolhanwool/Train-Survival) |
+| 왜 그렇게 설계했는지를 명세로 남긴다 — Player 도메인 하나에 10편 | [Idle-Game `docs/specs`](https://github.com/hanwoolhanwool/Idle-Game/tree/main/docs/specs/player) |
+| 도구를 파이프라인에 붙여 1인 개발 속도를 만든다 (Claude Code · MCP · Meshy) | [Train-Survival 아트 파이프라인](https://github.com/hanwoolhanwool/Train-Survival) |
+
+## 이력
+
+- **[인턴십] 멋쟁이사자처럼 × 검은토끼흰토끼** — 게임 클라이언트 개발 · 2026.04 – 05
+- **멋쟁이사자처럼 유니티 게임 개발 5기** · 2025.05 – 12
+- **전북 글로벌게임센터 게임 콘텐츠 전문인력 양성과정 (UE5)** · 2024.07 – 08 &nbsp;— 우수상
+- **원광대학교 게임콘텐츠학과** · 2019.03 – 2026.03 &nbsp;— 성적 우수 표창 (아너스 클럽)
+- **유튜브 채널 운영** · 2022 &nbsp;— 기획·편집·업로드 전 과정, 누적 24만 조회
+
+<br>
+
+<div align="center">
+<sub>더 자세한 기여 수치와 문제 해결 기록은 <a href="https://hanwoolhanwool.github.io/portfolio/">포트폴리오</a>에 있습니다.</sub>
+</div>
