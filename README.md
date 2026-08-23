@@ -36,17 +36,24 @@
 
 <br/>
 
-## 맡은 역할에 최선을 다합니다.
+## 맡은 역할에 최선을 다합니다
 
 팀의 작업 흐름을 이해하고 담당 역할을 끝까지 책임감을 가지고 구현합니다.
-지금까지 다양한 프로젝트에서 역할 분담을 분명하게 하고, 맡은 역할을 **반드시 구현 또는 대첵을 마련**했습니다.
-
+지금까지 참여한 팀 프로젝트에서 역할 분담을 분명하게 하고, 맡은 역할은 **끝까지 구현하거나 막히면 대책을 마련해** 마무리했습니다.
 
 | 프로젝트 | 맡은 일 | 확인할 수 있는 곳 |
 |---|---|---|
+| **카피바라 몸짱 만들기**<br/><sub>2인 · 2025.10 – 12</sub> | 기획 · 개발 총괄 · 리듬 판정 로직 · 리더보드 연동 · WebGL / AAB 빌드와 배포 · 출시 후 라이브 개선 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html) |
+| **열받는 게임**<br/><sub>3인 · 2026.05 – 06</sub> | MediaPipe 손동작 **입력 파이프라인 5레이어 전 구간** · 플레이어 · 몬스터 · 보스 · 레벨 디자인 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html) |
+| **Trophy Hunter : Wizard War**<br/><sub>4인 · 2025.10 – 11</sub> | **매칭 시스템** 설계 · 구현 · 룸 진행 · 방장 교체 · 이탈 복구 등 세션 흐름 · 기획 · QA 겸임 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/wizard-war-portfolio.html) |
+| **오목** <sub>멋쟁이사자처럼 18조</sub><br/><sub>5인 · 2025.09</sub> | 렌주 룰 **금수(열린 3 · 열린 4) 판정** · 승패 판별 · 급수 · 유저 전적 시스템 | [`Ruler.cs`](https://github.com/Adonis0219/Omok-18/blob/main/Assets/0.%20develop/2.%20Scripts/Game/AI%20AND%20Ruller/Ruler.cs) · [`KyuSystem.cs`](https://github.com/Adonis0219/Omok-18/blob/main/Assets/4.%20LHW/2.Scripts/KyuSystem.cs) |
 
+**막히면 우회로를 만들어서라도 약속한 기능을 남깁니다.**
 
-<br/>
+- **Wizard War** — 방장이 로딩 중 이탈하면 시작 판정을 내릴 주체가 사라져 전원이 로딩 화면에 갇혔습니다. 새 마스터가 판정을 승계하게 만들어 세션을 이어 붙였습니다.
+- **열받는 게임** — 웹캠 인식은 흔들림 자체를 없앨 수 없어, 신뢰도 게이트로 나쁜 프레임을 버리고 필터로 남은 떨림을 눌러 **조작 가능한 입력만 게임에 넘겼습니다.**
+
+<sub>담당이 아닌 영역과 팀원이 구현한 부분은 케이스 문서에 구분해 적어 두었습니다.</sub>
 
 <br/>
 
