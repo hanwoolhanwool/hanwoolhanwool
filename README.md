@@ -124,7 +124,7 @@
 
 ### 🤖 Mecha Survivor
 
-<img src="https://img.shields.io/badge/SUB-14708F?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Mecha-Survivor)
+[🔗 저장소](https://github.com/hanwoolhanwool/Mecha-Survivor)
 
 <img width="500" alt="Mecha Survivor 리그 실험실 툴 화면" src="./assets/mecha.jpg" />
 
@@ -150,7 +150,7 @@
 
 ### 💤 Idle Game
 
-<img src="https://img.shields.io/badge/SUB-17705B?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Idle-Game)
+[🔗 저장소](https://github.com/hanwoolhanwool/Idle-Game)
 
 <img width="500" alt="Idle Game 플레이 화면" src="./assets/idle.jpg" />
 
