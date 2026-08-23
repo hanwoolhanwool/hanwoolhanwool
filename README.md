@@ -97,7 +97,7 @@
 
 ## 진행 중 · 1인 개발
 
-### Train Survival
+### 🚂 Train Survival
 
 <img src="https://img.shields.io/badge/MAIN-D9402A?style=for-the-badge" alt="메인 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Train-Survival)
 
@@ -123,7 +123,7 @@
 
 <br/>
 
-### Mecha Survivor
+### 🤖 Mecha Survivor
 
 <img src="https://img.shields.io/badge/SUB-14708F?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Mecha-Survivor)
 
@@ -149,7 +149,7 @@
 
 <br/>
 
-### Idle Game
+### 💤 Idle Game
 
  [🔗 저장소](https://github.com/hanwoolhanwool/Idle-Game)
 
