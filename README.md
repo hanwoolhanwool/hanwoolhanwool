@@ -1,10 +1,12 @@
 <!--
 ═══════════════════════════════════════════════════════════════════════════
-  📷 프로젝트 여섯 곳의 이미지가 모두 채워져 있습니다.
-  train.jpg · mecha.jpg · idle.jpg · capybara.jpg · gesture.jpg · wizard.jpg
+  📷 이미지 자리 안내 — 남은 두 곳이 비어 있습니다.
+  파일을 이 저장소 assets/ 에 올린 뒤, 해당 위치의 <img> 주석을 풀면 끝납니다.
 
-  교체하려면 assets/ 의 파일을 같은 이름으로 덮어쓰면 됩니다.
-  권장 : 긴 변 1200px · JPEG (세로 화면은 640px). 표시 폭은 각 <img> 의 width 로 조절합니다.
+    ① mecha.png       Mecha Survivor 인게임
+    ② idle.png        Idle Game 인게임
+
+  채워진 곳 : train.jpg · capybara.jpg · gesture.jpg · wizard.jpg
 
   권장 1000 × 560 (화면에는 500px 폭으로 보입니다). 세로로 하나씩 놓이므로
   비율이 조금 달라도 줄이 어긋나지 않고, 한 장씩 따로 채워도 됩니다.
@@ -22,7 +24,7 @@
 
 <br/>
 
-- **직관적이고 단순한 규칙에서 참신한 재미**가 만들어지는 게임을 설계합니다.
+- 직관적이고 **단순한 규칙에서 참신한 재미**가 만들어지는 게임을 설계합니다.
 - **기획부터 개발, 아트까지 직접** 수행하며 아이디어를 플레이 가능한 게임으로 구현합니다.
 - **협동 멀티플레이**, **생존·전투 루프 설계**, **안정적인 입력 시스템** 구현에 강점이 있습니다.
 - 프로젝트 초기 설계부터 개발 계획, 구현, QA, 문서화, 출시까지 **전 과정을 체계적으로** 운영합니다.
@@ -85,8 +87,6 @@
 &nbsp;
 <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white">
 <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logoColor=white">
-<img src="https://img.shields.io/badge/Meshy_AI-A855F7?style=flat-square&logoColor=white">
-<img src="https://img.shields.io/badge/Tripo-14B8A6?style=flat-square&logoColor=white">
 </p>
 
 설계 · 최적화 &nbsp;—&nbsp; `FSM` `ScriptableObject` `Event Bus` `Service Locator` `Object Pooling` `Addressables` `async/await`
@@ -106,7 +106,7 @@
 <br/>
 
 **Overview** : 1~4인 협동 생존 크래프팅  
-2026.07 – 2027.01 출시 예정
+2026.07 – 진행중
 
 <br/>
 
@@ -127,7 +127,8 @@
 
 <img src="https://img.shields.io/badge/SUB-14708F?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Mecha-Survivor)
 
-<img width="500" alt="Mecha Survivor 리그 실험실 툴 화면" src="./assets/mecha.jpg" />
+<!-- 📷 ① assets/mecha.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img width="500" alt="Mecha Survivor 플레이 화면" src="./assets/mecha.png" /> -->
 
 <br/>
 
@@ -151,9 +152,10 @@
 
 ### 💤 Idle Game
 
- [🔗 저장소](https://github.com/hanwoolhanwool/Idle-Game)
+<img src="https://img.shields.io/badge/SUB-17705B?style=flat-square" alt="서브 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Idle-Game)
 
-<img width="500" alt="Idle Game 플레이 화면" src="./assets/idle.jpg" />
+<!-- 📷 ② assets/idle.png 를 올린 뒤 아래 한 줄의 주석을 푸세요 -->
+<!-- <img width="500" alt="Idle Game 플레이 화면" src="./assets/idle.png" /> -->
 
 <br/>
 
@@ -210,7 +212,7 @@
 <br/>
 
 **Overview** : 키보드 대신 웹캠 앞의 손동작으로 조작하는 3D 액션  
-3인 팀 · 2026.05 – 06 
+3인 팀 · 2026.05 – 06 · `Unity 6` · `MediaPipe`
 
 <br/>
 
