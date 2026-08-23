@@ -46,7 +46,6 @@
 | **카피바라 몸짱 만들기**<br/><sub>2인 · 2025.10 – 12</sub> | 기획 · 개발 총괄 · 리듬 판정 로직 · 리더보드 연동 · WebGL / AAB 빌드와 배포 · 출시 후 라이브 개선 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/capybara-portfolio.html) |
 | **열받는 게임**<br/><sub>3인 · 2026.05 – 06</sub> | MediaPipe 손동작 **입력 파이프라인 5레이어 전 구간** · 플레이어 · 몬스터 · 보스 · 레벨 디자인 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/sam-i-bang-portfolio.html) |
 | **Trophy Hunter : Wizard War**<br/><sub>4인 · 2025.10 – 11</sub> | **매칭 시스템** 설계 · 구현 · 룸 진행 · 방장 교체 · 이탈 복구 등 세션 흐름 · 기획 · QA 겸임 | [케이스 문서](https://hanwoolhanwool.github.io/portfolio/wizard-war-portfolio.html) |
-18/blob/main/Assets/0.%20develop/2.%20Scripts/Game/AI%20AND%20Ruller/Ruler.cs) · [`KyuSystem.cs`](https://github.com/Adonis0219/Omok-18/blob/main/Assets/4.%20LHW/2.Scripts/KyuSystem.cs) |
 
 **막히면 우회로를 만들어서라도 약속한 기능을 남깁니다.**
 
