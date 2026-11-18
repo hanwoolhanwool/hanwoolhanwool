@@ -107,7 +107,7 @@
 
 ### 🚂 Train Survival
 
-<img src="https://img.shields.io/badge/MAIN-D9402A?style=for-the-badge" alt="메인 프로젝트"> &nbsp; [🔗 저장소](https://github.com/hanwoolhanwool/Train-Survival)
+<img src="https://img.shields.io/badge/MAIN-D9402A?style=for-the-badge" alt="메인 프로젝트"> &nbsp; [🔗 포트폴리오](https://hanwoolhanwool.github.io/Train-Survival-Portfolio/)
 
 <img width="500" alt="Train Survival 타이틀 화면" src="./assets/train.jpg" />
 
